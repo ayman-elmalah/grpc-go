@@ -1,4 +1,4 @@
-# gRPC server streaming Hi Example
+# gRPC client streaming Hi Example
 
 This is a simple gRPC project that demonstrates a client-server interaction where the client sends a name to the server, and the server responds with a greeting.
 
@@ -11,7 +11,7 @@ This is a simple gRPC project that demonstrates a client-server interaction wher
 
 1- Clone this repository to your local machine:
 ```bash
-git clone https://github.com/ayman-elmalah/grpc-go.git && cd grpc-go/grpc-go-server-streaming
+git clone https://github.com/ayman-elmalah/grpc-go.git && cd grpc-go/grpc-go-client-streaming
 ```
 
 2- Run `go mod tidy` to ensure the project's dependencies are up to date:
@@ -30,7 +30,7 @@ cd server && go run main.go
 ```
 
 5- Run the client start:
-- On another terminal tab, open in the grpc-go-server-streaming directory then:
+- On another terminal tab, open in the grpc-go-client-streaming directory then:
 ```bash
 cd client && go run main.go
 ```
