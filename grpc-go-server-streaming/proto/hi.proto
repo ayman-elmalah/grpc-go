@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package hi;
+
+option go_package = "grpc-go-server-streaming/proto";
+
+service HiService {
+  rpc SayHi (HiRequest) returns (stream HiResponse);
+}
+
+message HiRequest {
+  string name = 1;
+  int32 age = 2;
+}
+
+message HiResponse {
+  string message = 1;
+}
