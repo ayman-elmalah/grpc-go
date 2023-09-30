@@ -14,11 +14,11 @@ The project is organized into four separate directories, each representing a dif
 
 3. **Client Streaming API:** Illustrates a client streaming gRPC API where a client sends a stream of requests to the server and receives a single response.
 
-    - Directory: `grpc-go-server-client-streaming/`
+    - Directory: `grpc-go-client-streaming/`
 
 4. **Bidirectional Streaming API:** Demonstrates a bidirectional streaming gRPC API where both the client and server can send a stream of messages to each other.
 
-    - Directory: `grpc-go-server-bidirectional-streaming/`
+    - Directory: `grpc-go-bidirectional-streaming/`
 
 Each project directory contains its own Go code, including the necessary `.proto` files for defining the gRPC service, server and client implementations, and Makefile (if applicable).
 
