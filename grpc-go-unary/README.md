@@ -30,6 +30,7 @@ cd server && go run main.go
 ```
 
 5- Run the client start:
+- On another terminal tab, open in the grpc-go-unary directory then:
 ```bash
 cd client && go run main.go
 ```
